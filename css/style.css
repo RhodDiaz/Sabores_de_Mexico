@@ -1,165 +1,178 @@
-header{
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 100px;
-    background-color: #c90066;
-    color:  white;
-    text-align: center;
-    height:fit-content;
-    border-radius: 50px;
-    display:flexbox;
-    font-weight: 500;
+header {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 100px;
+  background-color: #c90066;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  border-radius: 50px;
+  display: flexbox;
+  font-weight: 500;
 }
 
 body {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0.5%;
-    display: flex; 
-    flex-direction: column;
-    background-color:floralwhite;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0.5%;
+  display: flex;
+  flex-direction: column;
+  background-color: floralwhite;
 }
 
 .footer {
-    background: #96004b;
-    color: #ffffff;
-    text-align: center;
-    font-family: Arial;
-    font-size: 13px;
-    padding: 2% 8% 3% 8%;
+  background: #96004b;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 2% 8% 3% 8%;
 }
 
-.enlaces ul{
-    list-style-type: none; /*Quitar viñetas*/
-    display: flex;
-    /* justify-content: space-around; */
-    margin: 0;
-    padding: 30px;
+.enlaces ul {
+  list-style-type: none;
+  /*Quitar viñetas*/
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 0;
+  padding: 30px;
 }
 
-.botón{
-    text-decoration: none;
-    font-family: 'Sansita';
-    background-color: #c90066;
-    padding: 10px;
-    color: #ffffff;
-    border-radius: 10px;
+.botón {
+  text-decoration: none;
+  font-family: 'Sansita';
+  background-color: #c90066;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 10px;
 }
 
-.botón:hover{
-    background-color:#7d003f;
+.botón:hover {
+  background-color: #7d003f;
 }
 
-p{
-    font-family: 'Sansita';
+p {
+  font-family: 'Sansita';
 }
 
-.banner img{
-    width: 100%;
+.banner img {
+  width: 100%;
 }
 
-nav ul li{
-    flex: auto;
-    text-align: center;
+nav ul li {
+  flex: auto;
+  text-align: center;
 }
 
-h1{
-    font-family: 'Sansita Swashed';
-    font-weight: 500;
-    text-align: center;
-    /* padding: 2px; */
-    font-size: 3.5vw;
+h1 {
+  font-family: 'Sansita Swashed';
+  font-weight: 500;
+  text-align: center;
+  /* padding: 2px; */
+  font-size: 3.5vw;
 }
 
-.platillos{
-    margin: 20px auto;
-    display: flex;
-    flex-flow: column wrap; /* <flex-direction> <flex-wrap> */
-    justify-content: space-evenly; /* Alinear elementos con respecto al eje principal */
-    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly ; */
+.platillos {
+  margin: 20px auto;
+  display: flex;
+  flex-flow: column wrap;
+  /* <flex-direction> <flex-wrap> */
+  justify-content: space-evenly;
+  /* Alinear elementos con respecto al eje principal */
+  /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly ; */
 }
 
-.platillo img{
-    width: 50%;
-    margin-left: 1%;
-    margin-bottom: 2%;
+.platillo img {
+  width: 50%;
+  margin-left: 1%;
+  margin-bottom: 2%;
 }
 
-.platillo{
-    display: flex;
+.platillo {
+  display: flex;
 }
 
 .platnombre {
-    display: flex;
-    flex: 50%;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Sansita';
-    font-size: 2.8vw;
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sansita';
+  font-size: 2.8vw;
 }
 
 .platprecio {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    font-family: 'Sansita';
-    font-size: 2.8vw;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-family: 'Sansita';
+  font-size: 2.8vw;
 }
 
-.reserva{
-    /* margin-inline: 40%; */
-    text-align: center;
+.reserva {
+  /* margin-inline: 40%; */
+  text-align: center;
 }
 
-.cita{
-    text-align: center;
+.cita {
+  text-align: center;
 }
 
 
 
-.fa {  
-    padding: 20px;  
-    text-align: center;  
-    margin: 5px 2px;  
-    font-size: 30px;  
-    width: 10px;  
-  }  
-  .fa-facebook {  
-    background: #3B5998;  
-    color: white;  
-  }  
-  .fa-twitter {  
-    background: #55ACEE;  
-    color: white;  
-  }  
-  .fa-pinterest {  
-    background: #cb2027;  
-    color: white;  
-  }  
-  .fa-linkedin {  
-    background: #007bb5;  
-    color: white;  
-  }  
-  .fa-instagram {  
-    background: #125688;  
-    color: white;  
-  }  
-  .fa-youtube {  
-    background: #bb0000;  
-    color: white;  
-  }  
-  .fa-google {  
-    background: #dd4b39;  
-    color: white;  
-  }  
-  .fa-snapchat-ghost {  
-    background: #fffc00;  
-    color: white;  
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-  }  
-  .fa-skype {  
-    background: #00aff0;  
-    color: white;  
-  }  
-  .fa:hover {  
-      opacity: 0.9;  
-  }  
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 10px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
